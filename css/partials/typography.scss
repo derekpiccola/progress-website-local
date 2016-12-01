@@ -1,0 +1,55 @@
+body *:not(.icon), body *:not(.ma-icon) {
+	font-family: 'Montserrat', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	line-height: 1.6;
+
+	&.header {
+
+		&.page-subheader {
+			text-transform: uppercase;
+		    letter-spacing: 4px;
+		    font-weight: 700 !important;
+		    font-size: 21px !important;
+		}
+	}
+
+	&.large {
+		font-size: 18px;
+		color: #485B6C;
+		opacity: .7;
+		line-height:1.6;
+	}
+}
+
+h2 {
+
+	&.header {
+
+		&.page-subheader {
+			text-transform: uppercase;
+		    letter-spacing: 3px;
+		    font-weight: 700 !important;
+		    font-size: 18px !important;
+		}
+	}	
+}
+
+h3 {
+
+	&.header {
+		font-size: 32px;
+		font-weight: 400;
+		color: $dark-gray;
+
+		&.page-subheader {
+			text-transform: uppercase;
+		    letter-spacing: 3px;
+		    font-weight: 700 !important;
+		    font-size: 18px !important;
+		}
+	}	
+}
+

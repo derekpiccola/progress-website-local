@@ -1,0 +1,99 @@
+.light-gray-background {
+	background-color: $light-gray !important;
+}
+
+.ma-blue-background {
+	background-color: $blue !important;
+}
+
+.slalom-background {
+	background-color: $slalom-blue !important;
+}
+
+.dark-blue-map-background {
+	background-color: $dull-dark-blue !important;
+	background-image: url('../img/map_texture_dark_blue.png') !important;
+	background-size: 2353px 1238px !important;
+	// background-attachment: fixed !important;
+	background-position: center !Important;
+}
+
+.light-map-background {
+	background-color: $light-gray !important;
+	background-image: url('../img/map_texture.png') !important;
+	background-size: 2353px 1238px !important;
+	// background-attachment: fixed !important;
+	background-position: center !Important;
+}
+
+.dull-dark-blue-background {
+	background-color: $dull-dark-blue !important;
+}
+
+.blue-background {
+	background-color: $blue !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.color {
+
+	&.white {
+		color: #fff;
+	}
+}
+
+
+.flex-horizontal {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%; }
+  .flex-horizontal > .flex-end {
+    margin-left: auto; }
+
+.flex-vertical {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 100%; }
+  .flex-vertical > .flex-end {
+    margin-top: auto; }
+
+.flex-grow-1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1; }
+
+.flex-basis-0 {
+  -webkit-flex-basis: 0;
+  -ms-flex-basis: 0;
+  flex-basis: 0; }
+
+.flex-vertical.flex-center {
+  justify-content: center;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float:right;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}

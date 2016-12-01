@@ -1,0 +1,39 @@
+#featuresHeroWrap {
+
+	#featuresHeroGrid {
+		min-height: 700px;
+	}
+
+	#featuresHeroPhone {
+			display:block;
+			position:absolute;
+			left:0;
+			top:150px;
+
+		img {
+			max-height:900px;
+			width:auto;
+		}
+	}
+
+	#featuresHeroCTA {
+		margin-top:36px;
+	}
+}
+
+#featuresClientWrap {
+
+	#featuresClientGrid {
+		min-height: 550px;
+	}
+}
+
+#featuresProgressionWrap {
+	background-image: url(../img/house_background.jpg);
+	background-size: cover;
+	background-position: center;
+
+	#featuresProgressionGrid {
+		min-height: 600px;
+	}
+}

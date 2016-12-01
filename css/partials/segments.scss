@@ -1,0 +1,212 @@
+.ui {
+
+	&.segment {
+
+		&.study-logo {
+			width:160px;
+			min-width:160px;
+			height:160px;
+			margin: 0 10px !important;
+			padding: 60px 24px;
+
+			> img {
+				width:auto;
+				max-width:100%;
+				height: auto;
+			}
+		}
+
+		&.vertical {
+			border:0;
+		}
+	}
+}
+
+#segmentExtendMapAnything {
+
+	h4 {
+		font-size:18px;
+		color: #fff;
+		font-weight: 200;
+	}
+
+	h2 {
+		color:#fff;
+		font-weight: 200;
+		font-size: 42px;
+		margin-bottom: 42px;
+	}
+
+	.ui {
+
+		.divider {
+			margin-top:24px;
+		}
+	}
+}
+
+#segmentHero {
+	background-image: url('../img/bg_bars.svg');
+	background-size: 70% auto;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+
+	.ui {
+
+		&.button {
+
+			&.huge {
+				margin-top:24px;
+				box-shadow: 0 2px 3px rgba(0,0,0,0.16);
+			}
+		}
+	}
+}
+
+#segmentWhy {
+	padding-bottom: 200px;
+
+	p {
+		color: rgba(255,255,255,0.7);
+	}
+
+	h3 {
+		color: #fff;
+	}
+
+	h4 {
+		color: #fff;
+	}
+
+	div {
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+#segmentCTA {
+	padding-top:0;
+	padding-bottom:100px;
+
+	#CTAWrap {
+		margin-top:-100px;
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+#segmentPartnerListHeader {
+	padding: 80px 0 100px;
+
+	h2 {
+		font-size: 48px;
+		font-weight: 400;
+		color: $dark-blue;
+	}
+}
+
+#segmentPartnerListResults {
+	padding-top:0;
+
+	#regionSelectWrap {
+		margin: -29px auto 0;
+		max-width: 500px;
+		box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+		border-radius: 4px;
+
+		.ui {
+
+			&.label {
+				border-radius: 4px 0 0 4px;
+				margin-right:0;
+				font-weight: 300;
+				padding-top: 17px;
+
+				.icon {
+					float:left;
+				}
+			}
+
+			&.dropdown {
+			    height: 52px;
+			    border-color: $blue;
+			    border-radius: 0 4px 4px 0;
+			    background-color: $blue;
+			    color: #fff;
+			    font-size: 21px;
+			    font-weight: 300;
+			    line-height:1;
+				border-left: 1px solid $light-blue;
+
+			    &:hover {
+			    	background-color: $light-blue;
+			    	border-color: $light-blue;
+			    }
+
+			    .icon {
+					&:before {
+						content: "\e056" !important;
+						margin-top: 5px;
+						display: block;
+					}
+			    }
+			    .text {
+			    	color: #fff !important;
+			    	font-weight: 300;
+			    }
+
+			    .menu {
+				    border:0;
+				    background-color: $light-blue;
+
+				    .item {
+				    	border:0;
+					    color: #fff;
+					    font-size: 21px;
+					    font-weight: 300;
+					    line-height:1;
+
+					    &:hover {
+					    	background-color: rgba(255,255,255,0.2);
+					    	color: #fff;
+					    }	    	
+				    }
+				}
+			}
+		}
+	}
+}
+
+.ui {
+
+	&.segment {
+
+		&.dark-gray {
+			background-color: $dark-gray;
+		}
+
+		&.background-bars {
+			background-image: url('../img/bg_bars.svg');
+			background-size: 70% auto;
+			background-position: bottom right;
+			background-repeat: no-repeat;
+		}
+
+		h2.subtle.header {
+			text-transform: uppercase;
+			letter-spacing:5px;
+			font-weight: 700;
+			font-size:21px;
+
+			&.green {
+				color: $green;
+			}
+		}
+
+		h1.header {
+			font-size: 42px;
+			font-weight: 400;
+		}
+	}
+}

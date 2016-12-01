@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="838px" height="406px" viewBox="0 0 838 406" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="80.9223275%" x2="100%" y2="80.9223294%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="56.0921657%" x2="100%" y2="56.0921669%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.489232579%" y1="41.3241676%" x2="95.8895854%" y2="41.3241684%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <path d="M326.111934,410 L124.038983,293.333128 C110.163945,285.32237 92.4258975,290.069562 84.4121038,303.94986 L23.1840268,410 L326.111934,410 L326.111934,410 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M820.264166,410 L385.191945,158.810936 C371.321137,150.802621 353.586518,155.551792 345.572725,169.43209 L279.339549,284.151315 C271.329267,298.025531 276.074292,315.761439 289.950971,323.773143 L439.300267,410 L820.264166,410 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+            <path d="M852,141.595953 L621.145455,8.31201921 C607.274843,0.303817123 589.540383,5.05307995 581.526589,18.9333778 L515.293414,133.652602 C507.283132,147.526819 512.035534,165.266986 525.904481,173.274226 L852,361.545562 L852,141.595953 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+        </g>
+    </g>
+</svg>
